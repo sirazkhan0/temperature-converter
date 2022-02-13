@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: black;
+    background-color: #d2e7d0;
+}
+
+#myForm{
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 70px;
+    padding-bottom: 30px;
+    background-color: #c1c1c1;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    margin: 8px 5px 40px;
+    padding: 5px;
+    font-size: 21px;
+    background-color: #405451;
+}
+
+.enteredNumber{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 8px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 2px solid #625d5d;
+    background-color: #e3eeef;
+}
+
+.enteredNumber:focus{
+    outline-color: rgb(68, 64, 64);
+}
+
+.inputLabel{
+   display: block;
+   text-align: center;
+   margin: 8px;
+   font-size: large;
+   font-weight: bold;
+   font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.selectorOption{
+    width: 30%;
+    margin: 2px auto;
+    margin-bottom: 15px; 
+}
+
+.myLabel{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.selectTo{
+    margin-left: 19px;
+}
+
+select{
+    background-color: #c8d0d1;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.bothBtn{
+    padding: 6px;
+    margin-bottom: 12px; 
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #c4d4d7;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+.bothBtn:hover{
+    background-color: #aababd;
+}
+
+.calBtn{
+    position: relative;
+    left: 360px;
+}
+
+.clearBtn{
+    position: relative;
+    left: 110px;
+    padding: 6px 14px;
+}
+
